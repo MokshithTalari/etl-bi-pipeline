@@ -8,9 +8,6 @@ Build a simple ETL pipeline that extracts data from a CSV, transforms it by addi
 ## Approach
 We load synthetic sales data from `data/raw/sales.csv`, compute `revenue = units * price`, and write the results to a SQLite database at `data/warehouse/warehouse.db`. A basic dashboard screenshot illustrates revenue over time.
 
-## Results
-Shipped analytics automation that helped drive an **18% churn reduction** and **~$120K/year savings** (representative of my past work).
-
 ### Running the pipeline
 
 Install requirements:
